@@ -13,6 +13,10 @@ I hope this repository/code can be helpful to someone who might need a helping h
 Please be aware that the Plagiarism policies are in place from Udacity. Please do not directly copy the code solutions, which might lead to disqualification.
 Please read the Honour Code [here](https://udacity.zendesk.com/hc/en-us/articles/210667103-What-is-the-Udacity-Honor-Code-)
 
+
+Please find the course completion certificate [here](https://confirm.udacity.com/XMLNSL3D)
+
+
 ## Table of Contents
 
 #### [P1 - Detecting Lane Lines](P1-LaneLines)
@@ -50,3 +54,7 @@ Please read the Honour Code [here](https://udacity.zendesk.com/hc/en-us/articles
  #### [P9 - Capstone / System Integration](P9-Capstone)
  - **Summary:** This project incorporates all the learnings in this course together to design a system that can be deployed in a real car. Different car control and detection modules are integrated with each other using ROS. After finishing the integration part, the system can be tested on Udacity's simulator as well as a real Self-Driving Car, Carla.
  - **Key learnings:** C++, ROS
+ 
+<p align="center">
+  <img src="https://miro.medium.com/max/1400/1*aJfK7a2mbXb6uT8yMKS1uw.jpeg" width="400">
+</p>
