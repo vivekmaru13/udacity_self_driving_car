@@ -1,4 +1,6 @@
 ### Project 1- Finding LaneLines
+---
+
 The Goal of this project is to find Lane markings on the road by capturing the frames from the wind-shield camera. 
 
 This project is completed using Computer Vision techniques. This project also contains a pipeline like implementation to find lane line from continuous video feed. 
