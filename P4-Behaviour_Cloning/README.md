@@ -15,7 +15,11 @@ The end goal is to train the network so that it can drive the car on given path 
 The model/architecture used in this project is borrowed from a [paper by Nvidia](https://arxiv.org/pdf/1604.07316v1.pdf). This model is basically a CNN but not in a conventional way. 
 
 Below is the architecture of the model. This model was chosen for this project as it has documented success in predicting steering angle of the car based on the given image. 
+
+
 ![Nvidia Model Architecutre][image3]
+
+
 
 The architecture consists of a convolution neural network with 2x2 filter sizes and depths between 24 and 64.
 The model includes RELU layers to introduce nonlinearity, and the data is normalized in the model using a Keras lambda layer. The lambda layer basically makes sure that all the inputs to the model is between the range of [-1,1].
@@ -80,13 +84,13 @@ Please note here that with flipping of images, steering angles are also flipped.
   <tr>
     <th>
       <p align="center">
-           <img src="./images/original_right_turn.jpg" alt="Original right turn image" width="60%" height="60%">
+           <img src="./images/original_right_turn.jpg" alt="Original right turn image" width="80%" height="80%">
            <br>Original right turn image
       </p>
     </th>
     <th>
       <p align="center">
-           <img src="./images/flipped_center_line.jpg" alt="Flipped to left turn image" width="60%" height="60%">
+           <img src="./images/flipped_center_line.jpg" alt="Flipped to left turn image" width="80%" height="80%">
            <br>Flipped to left turn image
       </p>
     </th>
