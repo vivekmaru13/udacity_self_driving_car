@@ -99,13 +99,13 @@ Please note here that with flipping of images, steering angles are also flipped.
 </table>
 
 
-####Preventing overfitting
+#### Preventing overfitting
 
 
 Despite the strong data augmentation mentioned above, there's still chance that the model is overfitting. 
 In order to prevent the network from overfitting, dropout layers are added after each convolutional layer (drop prob=0.2) and after each fully-connected layer (drop prob=0.5) but the last one.
 
-####Testing of the trained model
+#### Testing of the trained model
 
 
 After training the model on all the data gathered from the simulator, we deploy it and test it on the simulator itself where the simulator is not in training mode. The model performs pretty well. 
